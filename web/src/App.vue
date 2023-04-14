@@ -1,14 +1,15 @@
 <script setup>
 import Header from "./components/Header.vue";
 import Home from "./views/Home.vue";
+import Footer from "./components/Footer.vue";
 </script>
 
 <template>
   <header>
     <img
-      alt="Vue logo"
+      alt="Planet Logo"
       class="logo"
-      src="./assets/logo.svg"
+      src="./assets/planet.png"
       width="125"
       height="125"
     />
@@ -21,6 +22,10 @@ import Home from "./views/Home.vue";
   <main>
     <Home />
   </main>
+
+  <footer>
+    <Footer />
+  </footer>
 </template>
 
 <style scoped>
